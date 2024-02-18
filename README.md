@@ -5,5 +5,5 @@ I developed a library in Python of an optimized clustering algorithm to process 
 
 ## General Framework
 The customer uploads an image and the process automatically starts: the image is processed in Python, using machine learning algorithms to analyze the image and to select the best matching colors from the available tile set. The processed image, represented as a string of colors is then passed through serial comunication to Arduino, which dictates the movement of the mechanical system and the positioning of the tiles on a self-adhesive mesh of 50x50 cm. The mosaic is then ready to be trasported and it will be then installed on site, putting fresh tile grout on it.
-![General workflow](Images)
+![General workflow](Images/Automationdiagram.png)
 
