@@ -19,7 +19,7 @@ Using the database of available colors, I recreate the mosaic image again, this 
 Finally, I create a sequence of the colors that I pass to the robot for picking and placing to recreate the image. This sequence is created by iterating through each pixel in the mosaic image and finding the corresponding color in the database of available colors. The resulting sequence is then used to guide the robot in creating the final mosaic image.
 <p>
   <img src="Images/image_processing_chart.png" alt="First Image" width="300" height="400" style="display:inline-block; margin-right:10px;"/>
-  <img src="Images/original_algorithm_av.png" alt="Third Image" style="display:inline-block;"/>
+  <img src="Images/original_algorithm_av.png" alt="Third Image" width="600" height="400"  style="display:inline-block;"/>
 </p>
 
 
@@ -29,6 +29,11 @@ The principle that guided the design was the pick and place system. This require
 
 To improve the mechanical design skills, I drew each component from scratch in Solidworks. With this tool, I was able to visualize all the parts, make changes and test their effectiveness before manufacturing the assembly.
 ![Mechanial Design](Images/Machine_axis.jpg.png)
+
+<p>
+  <img src="Images/image_processing_chart.png" alt="First Image" width="500" height="400" style="display:inline-block; margin-right:10px;"/>
+  <img src="Images/original_algorithm_av.png" alt="Third Image" width="500" height="400"  style="display:inline-block;"/>
+</p>
 
 ## Electrical Design
 Finally, to ensure a well-performing and reliable system I designed the Printed Circuit Boards (PCBs). I also soldered the board
