@@ -18,8 +18,8 @@ Using the database of available colors, I recreate the mosaic image again, this 
 
 Finally, I create a sequence of the colors that I pass to the robot for picking and placing to recreate the image. This sequence is created by iterating through each pixel in the mosaic image and finding the corresponding color in the database of available colors. The resulting sequence is then used to guide the robot in creating the final mosaic image.
 <p>
-  <img src="Images/image_processing_chart.png" alt="First Image" style="display:inline-block; margin-right:10px;"/>
-  <img src="Images/image_processing_chart.png" alt="Second Image" style="display:inline-block; margin-right:10px;"/>
+  <img src="Images/image_processing_chart.png" alt="First Image" width="200" height="300" style="display:inline-block; margin-right:10px;"/>
+  <img src="Images/image_processing_chart.png" alt="Second Image" width="200" height="300" style="display:inline-block; margin-right:10px;"/>
   <img src="Images/image_processing_chart.png" alt="Third Image" style="display:inline-block;"/>
 </p>
 <img src="Images/image_processing_chart.png" alt="Image Processing" width="200" height="300">
