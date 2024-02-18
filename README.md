@@ -37,11 +37,11 @@ To improve the mechanical design skills, I drew each component from scratch in S
 
 ## Electrical Design
 Finally, to ensure a well-performing and reliable system I designed the Printed Circuit Boards (PCBs). I also soldered the board
-![Electrical Design](Images/PCB_assembly.jpg)
+
 
 <p>
   <img src="Images/PCB_assembly.jpg" alt="First Image" width="500" height="300" style="display:inline-block; margin-right:10px;"/>
-  <img src="Images/Mosaic_machine_brackets.png" alt="Third Image" width="500" height="300"  style="display:inline-block; transform: rotate(90deg);"/>
+  <img src="Images/PCB_motors.png" alt="Third Image" width="500" height="300"  style=" transform: rotate(90deg);"/>
 </p>
 
 ## Control of machine
