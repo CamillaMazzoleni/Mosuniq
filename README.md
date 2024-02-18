@@ -17,7 +17,7 @@ From the k-means clustering algorithm, I obtain the optimal colors for the mosai
 Using the database of available colors, I recreate the mosaic image again, this time using only the available colors. This is done by replacing each pixel in the original image with the closest color from the database. 
 
 Finally, I create a sequence of the colors that I pass to the robot for picking and placing to recreate the image. This sequence is created by iterating through each pixel in the mosaic image and finding the corresponding color in the database of available colors. The resulting sequence is then used to guide the robot in creating the final mosaic image.
-![Image Processing](Images/image_processing_chart.png  =250x250)
+![Image Processing](Images/image_processing_chart.png =250x250)
 
 ## Mechanical Design
 
