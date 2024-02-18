@@ -40,10 +40,15 @@ Finally, to ensure a well-performing and reliable system I designed the Printed 
 
 
 <p>
-  <img src="Images/PCB_assembly.jpg" alt="First Image" width="500" height="300" style="display:inline-block; margin-right:10px;"/>
-  <img src="Images/PCB_motors.png" alt="Third Image" width="500" height="300"  style=" transform: rotate(90deg);"/>
+  <img src="Images/PCB_assembly.jpg" alt="First Image" width="500" height="400" style="display:inline-block; margin-right:10px;"/>
+  <img src="Images/PCB_motors.png" alt="Third Image" width="500" height="400"  style=" transform: rotate(90deg);"/>
 </p>
 
 ## Control of machine
 To control the machine I connected it with ArduinoMega and I programmed it in C++. At the beginning, ArduinoMega communicate to Python trough serial comunication. This is necessary to use the image processing performed in Python to guide the machine in the recreation of the mosaic. At each iteration, the mosaic machine requests to Pyhton the next color that has to be picked.
-![Electrical Design](Images/Control_structure.png)
+
+
+<p>
+  <img src="Images/Control_structure.png" alt="First Image" width="300" height="400" style="display:inline-block; margin-right:10px;"/>
+  <img src="Images/robot_image_2.jpg" alt="Third Image" width="500" height="300"  style="display:inline-block;"/>
+</p>
