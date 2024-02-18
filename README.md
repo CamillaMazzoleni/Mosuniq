@@ -28,16 +28,21 @@ Finally, I create a sequence of the colors that I pass to the robot for picking 
 The principle that guided the design was the pick and place system. This required me to handle many mechanical components that are highly used in these applications such as actuators, stepper motors, pneumatic cylinders, solenoid valves, vacuum systems, among others.
 
 To improve the mechanical design skills, I drew each component from scratch in Solidworks. With this tool, I was able to visualize all the parts, make changes and test their effectiveness before manufacturing the assembly.
-![Mechanial Design](Images/Machine_axis.jpg.png)
+
 
 <p>
-  <img src="Images/Machine_axis.jpg.png" alt="First Image" width="500" height="400" style="display:inline-block; margin-right:10px;"/>
-  <img src="Images/Mosaic_machine_brackets.png" alt="Third Image" width="500" height="400"  style="display:inline-block;"/>
+  <img src="Images/Machine_axis.jpg.png" alt="First Image" width="500" height="300" style="display:inline-block; margin-right:10px;"/>
+  <img src="Images/Mosaic_machine_brackets.png" alt="Third Image" width="500" height="300"  style="display:inline-block;"/>
 </p>
 
 ## Electrical Design
 Finally, to ensure a well-performing and reliable system I designed the Printed Circuit Boards (PCBs). I also soldered the board
 ![Electrical Design](Images/PCB_assembly.jpg)
+
+<p>
+  <img src="Images/PCB_assembly.jpg" alt="First Image" width="500" height="300" style="display:inline-block; margin-right:10px;"/>
+  <img src="Images/Mosaic_machine_brackets.png" alt="Third Image" width="500" height="300"  style="display:inline-block; transform: rotate(90deg);"/>
+</p>
 
 ## Control of machine
 To control the machine I connected it with ArduinoMega and I programmed it in C++. At the beginning, ArduinoMega communicate to Python trough serial comunication. This is necessary to use the image processing performed in Python to guide the machine in the recreation of the mosaic. At each iteration, the mosaic machine requests to Pyhton the next color that has to be picked.
