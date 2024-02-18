@@ -5,6 +5,7 @@ I developed a library in Python of an optimized clustering algorithm to process 
 
 ## General Framework
 The customer uploads an image and the process automatically starts: the image is processed in Python, using machine learning algorithms to analyze the image and to select the best matching colors from the available tile set. The processed image, represented as a string of colors is then passed through serial comunication to Arduino, which dictates the movement of the mechanical system and the positioning of the tiles on a self-adhesive mesh of 50x50 cm. The mosaic is then ready to be trasported and it will be then installed on site, putting fresh tile grout on it.
+
 ![General workflow](Images/Automationdiagram.png)
 
 ## Image Processing
@@ -17,6 +18,7 @@ From the k-means clustering algorithm, I obtain the optimal colors for the mosai
 Using the database of available colors, I recreate the mosaic image again, this time using only the available colors. This is done by replacing each pixel in the original image with the closest color from the database. 
 
 Finally, I create a sequence of the colors that I pass to the robot for picking and placing to recreate the image. This sequence is created by iterating through each pixel in the mosaic image and finding the corresponding color in the database of available colors. The resulting sequence is then used to guide the robot in creating the final mosaic image.
+
 <p>
   <img src="Images/image_processing_chart.png" alt="First Image" width="300" height="400" style="display:inline-block; margin-right:10px;"/>
   <img src="Images/original_algorithm_av.png" alt="Third Image" width="700" height="300"  style="display:inline-block;"/>
@@ -51,4 +53,5 @@ To control the machine I connected it with ArduinoMega and I programmed it in C+
 <p>
   <img src="Images/Control_structure.png" alt="First Image" width="300" height="400" style="display:inline-block; margin-right:10px;"/>
   <img src="Images/robot_image_2.jpg" alt="Third Image" width="500" height="300"  style="display:inline-block;"/>
+  <img src="Images/mosaic_done.jpg" alt="Third Image" width="300" height="300"  style="display:inline-block;"/>
 </p>
