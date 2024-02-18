@@ -18,11 +18,10 @@ Using the database of available colors, I recreate the mosaic image again, this 
 
 Finally, I create a sequence of the colors that I pass to the robot for picking and placing to recreate the image. This sequence is created by iterating through each pixel in the mosaic image and finding the corresponding color in the database of available colors. The resulting sequence is then used to guide the robot in creating the final mosaic image.
 <p>
-  <img src="Images/image_processing_chart.png" alt="First Image" width="200" height="300" style="display:inline-block; margin-right:10px;"/>
-  <img src="Images/image_processing_chart.png" alt="Second Image" width="200" height="300" style="display:inline-block; margin-right:10px;"/>
-  <img src="Images/image_processing_chart.png" alt="Third Image" style="display:inline-block;"/>
+  <img src="Images/image_processing_chart.png" alt="First Image" width="300" height="400" style="display:inline-block; margin-right:10px;"/>
+  <img src="Images/original_algorithm_av.png" alt="Third Image" style="display:inline-block;"/>
 </p>
-<img src="Images/image_processing_chart.png" alt="Image Processing" width="200" height="300">
+
 
 ## Mechanical Design
 
@@ -33,7 +32,7 @@ To improve the mechanical design skills, I drew each component from scratch in S
 
 ## Electrical Design
 Finally, to ensure a well-performing and reliable system I designed the Printed Circuit Boards (PCBs). I also soldered the board
-![Electrical Design](Images/PCB_assembly.png)
+![Electrical Design](Images/PCB_assembly.jpg)
 
 ## Control of machine
 To control the machine I connected it with ArduinoMega and I programmed it in C++. At the beginning, ArduinoMega communicate to Python trough serial comunication. This is necessary to use the image processing performed in Python to guide the machine in the recreation of the mosaic. At each iteration, the mosaic machine requests to Pyhton the next color that has to be picked.
