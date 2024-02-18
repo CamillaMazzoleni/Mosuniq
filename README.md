@@ -52,6 +52,6 @@ To control the machine I connected it with ArduinoMega and I programmed it in C+
 
 <p>
   <img src="Images/Control_structure.png" alt="First Image" width="300" height="400" style="display:inline-block; margin-right:10px;"/>
-  <img src="Images/robot_image_2.jpg" alt="Third Image" width="500" height="300"  style="display:inline-block;"/>
+  <img src="Images/robot_image_2.jpg" alt="Third Image" width="400" height="250"  style="display:inline-block;"/>
   <img src="Images/mosaic_done.jpg" alt="Third Image" width="300" height="300"  style="display:inline-block;"/>
 </p>
