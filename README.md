@@ -31,8 +31,8 @@ To improve the mechanical design skills, I drew each component from scratch in S
 ![Mechanial Design](Images/Machine_axis.jpg.png)
 
 <p>
-  <img src="Images/image_processing_chart.png" alt="First Image" width="500" height="400" style="display:inline-block; margin-right:10px;"/>
-  <img src="Images/original_algorithm_av.png" alt="Third Image" width="500" height="400"  style="display:inline-block;"/>
+  <img src="Images/Machine_axis.jpg.png" alt="First Image" width="500" height="400" style="display:inline-block; margin-right:10px;"/>
+  <img src="Images/Mosaic_machine_brackets.png" alt="Third Image" width="500" height="400"  style="display:inline-block;"/>
 </p>
 
 ## Electrical Design
