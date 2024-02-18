@@ -18,6 +18,8 @@ Using the database of available colors, I recreate the mosaic image again, this 
 
 Finally, I create a sequence of the colors that I pass to the robot for picking and placing to recreate the image. This sequence is created by iterating through each pixel in the mosaic image and finding the corresponding color in the database of available colors. The resulting sequence is then used to guide the robot in creating the final mosaic image.
 ![Image Processing](Images/image_processing_chart.png){:width="50%" height="50%"}
+<img src="Images/image_processing_chart.png" alt="Image Processing" width="300" height="200">
+
 ## Mechanical Design
 
 The principle that guided the design was the pick and place system. This required me to handle many mechanical components that are highly used in these applications such as actuators, stepper motors, pneumatic cylinders, solenoid valves, vacuum systems, among others.
